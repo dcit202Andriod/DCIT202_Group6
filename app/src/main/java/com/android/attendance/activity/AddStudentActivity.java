@@ -118,7 +118,7 @@ public class AddStudentActivity extends Activity {
 					textLastName.setError("Please Enter Lastname");
 				}
 				else if (TextUtils.isEmpty(phone_no)) {
-					textcontact.setError("Please Enter Contact Number");
+					textcontact.setError("Enter Contact Number");
 				}
 
 				else if (TextUtils.isEmpty(address)) {
