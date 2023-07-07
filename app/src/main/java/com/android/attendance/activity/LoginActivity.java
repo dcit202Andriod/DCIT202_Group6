@@ -105,7 +105,7 @@ public class LoginActivity extends Activity {
 
 					if (TextUtils.isEmpty(user_name)) 
 					{
-						username.setError("Invalid User Name");
+						username.setError("Bad User Name");
 					}
 					else if(TextUtils.isEmpty(pass_word))
 					{
