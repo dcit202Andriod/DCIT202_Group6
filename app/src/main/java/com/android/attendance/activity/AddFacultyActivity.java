@@ -67,7 +67,7 @@ public class AddFacultyActivity extends Activity {
 				}
 
 				else if (TextUtils.isEmpty(address)) {
-					textaddress.setError("Enter Address");
+					textaddress.setError("Enter The Address");
 				}	
 				else if (TextUtils.isEmpty(userName)) {
 					textcontact.setError("Please Enter Username");
