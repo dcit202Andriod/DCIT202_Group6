@@ -55,7 +55,7 @@ public class AddAttendanceActivity extends Activity {
 			String users = studentBean.getStudent_firstname()+","+studentBean.getStudent_lastname();
 				
 			studentList.add(users);
-			Log.d("users: ", users); 
+			Log.d("Users: ", users); 
 
 		}
 
@@ -106,6 +106,7 @@ public class AddAttendanceActivity extends Activity {
 						
 						attendanceBean.setAttendance_session_id(sessionId);
 						attendanceBean.setAttendance_student_id(studentBean.getStudent_id());
+						
 						attendanceBean.setAttendance_status(status);
 						
 						DBAdapter dbAdapter = new DBAdapter(AddAttendanceActivity.this);
