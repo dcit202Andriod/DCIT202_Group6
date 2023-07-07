@@ -136,7 +136,7 @@ Eclipse projects. Here's how the projects were restructured:
 
 Next Steps:
 -----------
-You can now build the project. The Gradle project needs network
+Build the project now. The Gradle project needs network
 connectivity to download dependencies.
 
 Bugs:
