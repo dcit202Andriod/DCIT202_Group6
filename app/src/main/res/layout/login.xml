@@ -1,0 +1,130 @@
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/clg"
+    tools:context="com.android.attendance.activity.MainActivity" >
+
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="50dp"
+
+        android:src="@drawable/login"
+        android:contentDescription="@string/login"
+        android:layout_marginStart="150dp"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="@string/login"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#4287f5"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:text="@string/select_role"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#4034eb"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="330dp"
+        android:autofillHints="Enter Password"
+        android:hint="@string/enter_password"
+        android:background="@drawable/roundedtextview"
+        android:ems="10"
+        android:paddingLeft="25dp"
+        android:inputType="textPassword"
+        tools:ignore="LabelFor,RtlSymmetry"
+        android:paddingStart="25dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:text="@string/password"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#4034eb"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="220dp"
+        android:text="@string/username"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#4034eb"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/editTextusername"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:autofillHints="Enter Username"
+        android:hint="@string/enter_username"
+        android:background="@drawable/roundedtextview"
+        android:ems="10"
+        android:paddingLeft="25dp"
+        android:inputType="text"
+        tools:ignore="LabelFor,RtlSymmetry"
+        android:paddingStart="25dp">
+
+        <requestFocus />
+    </EditText>
+
+    <Spinner
+        android:id="@+id/spinnerloginas"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/buttonlogin"
+        android:layout_width="210dp"
+        android:layout_height="38dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:background="@drawable/roundedbutton"
+        android:textColor="@android:color/white"
+        android:text="@string/login"
+        android:textStyle="bold"
+        android:textSize="23sp"/>
+
+</RelativeLayout>
