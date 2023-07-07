@@ -94,7 +94,7 @@ public class TestActivity extends Activity {
 					String sub= sessionBean.getAttendance_session_subject();
 					Log.d("id", aid+"");
 					Log.d("fid", fid+"");
-					Log.d("sclass", sclass);
+					Log.d("subclass", sclass);
 					Log.d("dept",dept);
 					Log.d("date", date);
 					Log.d("sub", sub);
