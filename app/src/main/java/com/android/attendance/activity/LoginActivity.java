@@ -109,7 +109,7 @@ public class LoginActivity extends Activity {
 					}
 					else if(TextUtils.isEmpty(pass_word))
 					{
-						password.setError("enter password");
+						password.setError("input password");
 					}
 					DBAdapter dbAdapter = new DBAdapter(LoginActivity.this);
 					FacultyBean facultyBean = dbAdapter.validateFaculty(user_name, pass_word);
