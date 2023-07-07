@@ -10,7 +10,6 @@ PASSWORD : admin123
 
 
 ### Project made by: TEAM BETA(GROUP 6)
-
 This as an app made in Android Studio. This application is mainly designed for the faculties who maintain attendance regularly.
  In our app the faculty can maintain the attendance records of students according to subjects daily. 
 The faculty is able to view the attendance of students of every month as per subject. The admin has the rights to manage the faculties and students.
