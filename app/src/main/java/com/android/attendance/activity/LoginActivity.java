@@ -48,7 +48,7 @@ public class LoginActivity extends Activity {
 			public void onItemSelected(AdapterView<?> arg0, View view,
 					int arg2, long arg3) {
 				// TODO Auto-generated method stub
-				((TextView) arg0.getChildAt(0)).setTextColor(Color.RED);
+				((TextView) arg0.getChildAt(0)).setTextColor(Color.YELLOW);
 				((TextView) arg0.getChildAt(0)).setTextSize(25);
 				userrole =(String) spinnerloginas.getSelectedItem();
 
