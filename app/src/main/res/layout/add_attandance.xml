@@ -55,7 +55,7 @@
 
     <EditText
         android:id="@+id/DateEditText"
-        android:layout_width="150dp"
+        android:layout_width="120dp"
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/DateImageButton"
         android:layout_toLeftOf="@+id/spinnerSE"
