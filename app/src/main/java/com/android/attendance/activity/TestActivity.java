@@ -46,7 +46,7 @@ public class TestActivity extends Activity {
 				attendanceSessionBean.setAttendance_session_subject("DataBase");
 				
 				dbAdapter.addAttendanceSession(attendanceSessionBean);
-				Log.d("add", "inserted");
+				Log.d("input", "accepted");
 				
 				/*AttendanceSessionBean bean = new AttendanceSessionBean();
 				bean=dbAdapter.getAttendance();
