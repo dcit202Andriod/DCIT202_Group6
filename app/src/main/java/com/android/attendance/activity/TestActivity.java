@@ -85,7 +85,7 @@ public class TestActivity extends Activity {
 				
 				for(AttendanceSessionBean sessionBean : attendanceSessionBeanList)
 				{
-					Log.d("for", "in for loop");
+					Log.d("for", "within a for loop");
 					int aid = sessionBean.getAttendance_session_id();
 					int fid = sessionBean.getAttendance_session_faculty_id();
 					String sclass = sessionBean.getAttendance_session_class();
