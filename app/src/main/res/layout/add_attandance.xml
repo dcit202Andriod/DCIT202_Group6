@@ -62,7 +62,7 @@
         android:background="#ffffff"
         android:hint="Select Date "
         android:paddingLeft="26dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="9dp"
         android:editable="false"
         android:ems="10" >
 
