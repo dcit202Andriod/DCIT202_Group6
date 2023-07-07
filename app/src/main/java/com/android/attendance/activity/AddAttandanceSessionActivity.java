@@ -77,7 +77,7 @@ public class AddAttandanceSessionActivity<AddAttandanceActivity> extends Activit
 			public void onItemSelected(AdapterView<?> arg0, View view,
 					int arg2, long arg3) {
 				// TODO Auto-generated method stub
-				((TextView) arg0.getChildAt(0)).setTextColor(Color.BLACK);
+				((TextView) arg0.getChildAt(0)).setTextColor(Color.BLUE);
 				branch =(String) spinnerbranch.getSelectedItem();
 			}
 
