@@ -20,6 +20,9 @@ MarkAryee:
 Maa Abena Adjabeng: 
 10960201
 
+AsieduJusticeSefa:
+10955267
+
 ## Attendance-Tracker
 
 ADMIN LOGINS 
