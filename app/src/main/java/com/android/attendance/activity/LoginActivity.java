@@ -123,7 +123,7 @@ public class LoginActivity extends Activity {
 					}
 					else
 					{
-						Toast.makeText(getApplicationContext(), "Login failed", Toast.LENGTH_SHORT).show();
+						Toast.makeText(getApplicationContext(), "Login did not work", Toast.LENGTH_SHORT).show();
 					}
 				}
 
