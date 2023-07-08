@@ -1,3 +1,24 @@
+## MEMBERS USERNAMES AND IDS
+(Group Leader) kofiamoah19:
+10951506
+
+amoahoo8: 
+10959346
+
+CodeOverdo:
+10953249
+
+Adjei31: 
+10952568
+
+Isaac-asante:
+10951572
+
+MarkAryee:
+10963750
+
+
+
 ## Attendance-Tracker
 
 ADMIN LOGINS 
