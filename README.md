@@ -23,6 +23,9 @@ Maa Abena Adjabeng:
 AsieduJusticeSefa:
 10955267
 
+Techvrs:
+10973102
+
 ## Attendance-Tracker
 
 ADMIN LOGINS 
