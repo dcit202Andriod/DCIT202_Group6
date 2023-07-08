@@ -94,7 +94,7 @@ public class ViewStudentByBranchYear extends Activity {
 						// cancel the alert box and put a Toast to the user
 						dialog.cancel();
 						Toast.makeText(getApplicationContext(), "You choose cancel", 
-								Toast.LENGTH_LONG).show();
+								Toast.LENGTH_SHORT).show();
 					}
 				});
 
